@@ -15,12 +15,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         num1 = findViewById(R.id.txtNumeroUno);
-        num1 = findViewById(R.id.txtNumeroDos);
+        num2 = findViewById(R.id.txtNumeroDos);
         resultado = findViewById(R.id.lblResultado);
     }
 
     public void calcular(View v){
         double n1,n2, suma;
-        suma =  m1 +´n2 
+       if(validar()){
+        n1 = Double.parseDouble(num1.getText().toString());
+        n2 = Double.parseDouble(num2.getText().toString());
+        suma = n1 + n2;
+        resultado.setText(""+ suma);
+        //resultado.setText(String.value0f(suma));
+       }
+    }
+
+    public boolean validar(){
+        if(num1.getText().toString().isEmpty()){
+            num1.setError(getString(R.string.mensaje_error_1));
+            num1.requestFocus();
+            return false;
+        }
+        if(num2.getText().toString().isEmpty()){
+            num2.setError(getString(R.string.mensaje_error_2));
+            num2.requestFocus();
+            return false;
+        }
+        return  true;
+    }
+
+    public void limpiar (View v){
+        num1.setText("");
+        num2.setText("");
+        resultado.setText("");
+        num1.requestFocus();
     }
 }

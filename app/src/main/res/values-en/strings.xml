@@ -4,4 +4,9 @@
     <string name="numeroDos">Number Two</string>
     <string name="numeroUno">"Number One "</string>
     <string name="titulo">CALCULATOR</string>
+    <string name="sumar">sume</string>
+    <string name="limpiar">clean</string>
+    <string name="calcular">calculate</string>
+    <string name="mensaje_error_1">insert num 1</string>
+    <string name="mensaje_error_2">insert num 2</string>
 </resources>
