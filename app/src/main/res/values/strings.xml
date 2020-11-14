@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">calculadora</string>
+    <string name="titulo">CALCULADORA</string>
+    <string name="numeroDos">Numero Dos</string>
+    <string name="numeroUno">Numero Uno</string>
+    <string name="calcular">calcular</string>
 </resources>
