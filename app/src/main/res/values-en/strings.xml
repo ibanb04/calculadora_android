@@ -9,4 +9,8 @@
     <string name="calcular">calculate</string>
     <string name="mensaje_error_1">insert num 1</string>
     <string name="mensaje_error_2">insert num 2</string>
+    <string name="division">divide</string>
+    <string name="multiplicacion">multiplicate</string>
+    <string name="resta">rest</string>
+    <string name="error_division_cero">can\'t divide this number</string>
 </resources>

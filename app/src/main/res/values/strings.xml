@@ -5,7 +5,18 @@
     <string name="numeroUno">Numero Uno</string>
     <string name="calcular">calcular</string>
     <string name="limpiar">limpiar</string>
-    <string name="sumar">sumar</string>
     <string name="mensaje_error_1">ingresar numero 1</string>
     <string name="mensaje_error_2">ingresar numero 2</string>
+    <string name="sumar">sumar</string>
+    <string name="resta">resta</string>
+    <string name="division">division</string>
+    <string name="multiplicacion">multiplicacion</string>
+    <string name="error_division_cero">No se puede dividir por cero</string>
+
+    <string-array name="operaciones">
+        <item>@string/sumar</item>
+        <item>@string/resta</item>
+        <item>@string/multiplicacion</item>
+        <item>@string/division</item>
+    </string-array>
 </resources>
